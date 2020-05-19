@@ -11,6 +11,6 @@ def find_even_values(src)
         p src[row_index][element_index]
       element_index += 1
     end
-    count += 1
+    row_index += 1
   end
 end
